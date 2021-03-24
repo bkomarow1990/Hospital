@@ -107,5 +107,6 @@ void Doctor::print() const
 		<< "Name : " << name << endl
 		<< "LastName : " << last_name << endl
 		<< "FatherName : " << father_name << endl
-		<< "Age : " << age << endl;
+		<< "Age : " << age << endl
+		<< "Vocation : " << vocation << endl;
 }

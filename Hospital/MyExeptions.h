@@ -54,3 +54,11 @@ public:
 	{}
 	// what()
 };
+class InvalidArgumentChoise : public MyException
+{
+public:
+	InvalidArgumentChoise(const  string& message = "Invalid type choice!")
+		: MyException(message)
+	{}
+	// what()
+};
